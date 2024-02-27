@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #name
+        {
+            color:blue;
+            text-align: center;
+            font-style:italic;
+            
+        }
+        #img
+        {
+          height:100px;
+          width:100px;
+          float:right;
+          position:relative;
+          right:100px;
+        }
+        #email{
+            text-align: center;
+            font-style:italic;
+            font-size:28px;
+        }
+        #fs{
+            border:1px solid black;
+           
+        }
+        #le{
+            font-size:20px;
+            font-weight:bold;
+        }
+        #last{
+            text-align:right;
+        }
+        #all{
+            background-color: lightslategray;
+        }
+      
+
+        
+    </style>
+</head>
+<body>
+    <script>
+ var a = document.createElement("h1");
+a.innerText="Malathi Dasari";
+document.body.appendChild(a);
+a.setAttribute("id","name")
+// for email
+var em = document.createElement("h1");
+em.innerText="malathidasari30@gmail.com";
+document.body.appendChild(em);
+em.setAttribute("id","email")
+// section image
+var b=document.createElement("img");
+b.setAttribute("src","./picture.jpg")
+document.body.appendChild(b);
+b.setAttribute("id","img")
+// br
+var br=document.createElement("br")
+document.body.appendChild(br);
+var br1=document.createElement("br")
+document.body.appendChild(br1);
+var br2=document.createElement("br")
+document.body.appendChild(br2);
+   
+var br3=document.createElement("br")
+document.body.appendChild(br3);
+   
+     
+
+
+// carreer objective
+var c = document.createElement("h2");
+c.innerText="Carrer Objective:";
+document.body.appendChild(c);
+var d = document.createElement("p");
+d.innerText="Motivated electronics and communication engineering graduate with a strong desire to excel in the IT domain."
+document.body.appendChild(d);
+
+// for eduction qualification
+var ed=document.createElement("h2");
+ed.innerText="Education Qualification:"
+document.body.appendChild(ed);
+var con=document.createElement("p");
+con.innerText="I have done my Graduation in the stream of Electronics & Communication Engineering with 7.46CGPA."
+document.body.appendChild(con)
+// technical skills
+var ts=document.createElement("fieldset")
+ ts.setAttribute("id","fs")
+ document.body.appendChild(ts);
+ var l=document.createElement("legend")
+ ts.appendChild(l);
+ l.innerText="Technical Skills:"
+ l.setAttribute("id","le")
+//  lists
+ var li=document.createElement("ul")
+ ts.appendChild(li)
+ var o=document.createElement("li")
+ li.appendChild(o)
+ o.innerHTML="HTML"
+ var o1=document.createElement("li")
+ li.appendChild(o1)
+ o1.innerHTML="Css"
+ var o2=document.createElement("li")
+ li.appendChild(o2)
+ o2.innerHTML="JavaScript"
+ var o3=document.createElement("li")
+ li.appendChild(o3)
+ o3.innerHTML="C"
+ var o4=document.createElement("li")
+ li.appendChild(o4)
+ o4.innerHTML="Python"
+//  for projects
+var ap=document.createElement("h2")
+ap.innerText="Academic Projects:"
+document.body.appendChild(ap);
+var pro=document.createElement("h4");
+document.body.appendChild(pro);
+pro.innerText="Claping a switch using Ic:"
+var pro1=document.createElement("p");
+document.body.appendChild(pro1);
+pro1.innerText="A clap switch is an electronic circuit, which controls electrical appliances with user clapping sound.It is an advantageous technology for mobility impaired persons."
+// stre
+var ts=document.createElement("fieldset")
+ ts.setAttribute("id","fs")
+ document.body.appendChild(ts);
+ var l=document.createElement("legend")
+ ts.appendChild(l);
+ l.innerText="Strengths:"
+ l.setAttribute("id","le")
+ var li=document.createElement("ul")
+ ts.appendChild(li)
+ var o=document.createElement("li")
+ li.appendChild(o)
+ o.innerHTML="Time Management"
+ var o1=document.createElement("li")
+ li.appendChild(o1)
+ o1.innerHTML="Self Motivation"
+ var o2=document.createElement("li")
+ li.appendChild(o2)
+ o2.innerHTML=" Enthusiasm"
+
+//  for declaration
+var last=document.createElement("h2")
+document.body.appendChild(last)
+last.innerText="Declaration:"
+var lp=document.createElement("p")
+document.body.appendChild(lp)
+lp.innerText="I hereby declare that the details furnished above are mine and true to the best of my knowledge."
+var sig=document.createElement("h3")
+document.body.appendChild(sig)
+sig.innerText="Signature:"
+sig.setAttribute("id","last")
+var s=document.createElement("p")
+document.body.appendChild(s)
+s.innerText="D.Malathi"
+s.setAttribute("id","last")
+
+    </script>
+</body>
+</html>
